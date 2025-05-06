@@ -1,0 +1,19 @@
+Frontend Developer
+We are looking for a skilled Frontend Developer to join our team.
+
+Required Skills:
+- React.js experience
+- JavaScript/TypeScript expertise
+- HTML/CSS
+- UI/UX design principles
+- Experience with responsive web design
+- Git version control
+
+Responsibilities:
+- Implement user interface components using React
+- Develop and maintain frontend features
+- Optimize application for performance
+- Collaborate with backend developers
+- 2+ years of experience in frontend development
+
+This is a full-time position with remote work options.

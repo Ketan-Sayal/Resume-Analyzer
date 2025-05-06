@@ -1,0 +1,19 @@
+Data Analyst - Python Specialist
+Join our analytics team to drive data-based decisions.
+
+Technical Requirements:
+- Python programming
+- SQL query expertise
+- Data visualization tools
+- Statistical analysis
+- Experience with pandas, numpy, and matplotlib
+- Database knowledge
+
+Job Description:
+- Analyze large datasets to identify trends
+- Create dashboards and visualization tools
+- Work with product and business teams
+- Document data flows and processes
+- Minimum 2 years working on data projects
+
+We're looking for an analytical thinker with strong problem-solving skills.

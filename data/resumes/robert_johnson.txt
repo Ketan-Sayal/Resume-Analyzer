@@ -1,0 +1,63 @@
+ROBERT JOHNSON
+Backend Developer
+robert.johnson@email.com | (555) 234-5678 | linkedin.com/in/robertjohnson
+
+SUMMARY
+Detail-oriented Backend Developer with 2 years of professional experience specializing in building robust server-side applications. Proficient in Java and Python with a strong foundation in data structures and algorithms (DSA). Committed to writing clean, maintainable code with a focus on performance optimization.
+
+SKILLS
+• Languages: Java, Python, SQL
+• Frameworks: Spring Boot, Django, Flask
+• Databases: PostgreSQL, MySQL, MongoDB
+• Tools: Git, Docker, Jenkins, Kubernetes
+• Concepts: Microservices, RESTful APIs, OOP
+• Testing: JUnit, Pytest, Mockito
+
+PROFESSIONAL EXPERIENCE
+
+Backend Developer
+Enterprise Solutions | March 2023 - Present
+• Design and implement RESTful APIs using Java and Spring Boot
+• Develop microservices for distributed systems architecture
+• Work with database design and optimization for improved performance
+• Collaborate with DevOps team to implement CI/CD pipelines
+• Participate in code reviews and mentor junior developers
+
+Junior Software Engineer
+Tech Innovators | January 2022 - February 2023
+• Developed backend services for a financial application using Python and Django
+• Implemented database migrations and SQL optimization
+• Fixed bugs and wrote unit tests to ensure code quality
+• Participated in Agile development process with two-week sprints
+• Collaborated with frontend team to integrate APIs
+
+Intern Developer
+CodeCraft Solutions | June 2021 - December 2021
+• Assisted in the development of internal tools for data analysis
+• Gained experience in Python scripting and SQL querying
+• Learned about version control and collaborative development
+• Participated in daily stand-up meetings and sprint planning
+
+EDUCATION
+Bachelor of Science in Computer Engineering
+State Technical University | Graduated May 2021
+• GPA: 3.6/4.0
+• Relevant coursework: Object-Oriented Programming, Data Structures and Algorithms, Database Systems, Operating Systems
+
+PROJECTS
+
+Inventory Management API
+• Developed a RESTful API using Java Spring Boot for inventory management
+• Implemented authentication and authorization using JWT
+• Created comprehensive documentation using Swagger
+• Deployed the application using Docker containers
+
+Task Scheduler Service
+• Built a task scheduling service using Python and Flask
+• Implemented asynchronous task processing with Celery
+• Used PostgreSQL for data persistence
+• Implemented comprehensive logging and monitoring
+
+CERTIFICATIONS
+• Oracle Certified Professional: Java SE 11 Developer
+• Microsoft Certified: Azure Developer Associate

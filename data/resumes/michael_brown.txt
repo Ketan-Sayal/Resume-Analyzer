@@ -1,0 +1,69 @@
+MICHAEL BROWN
+DevOps Engineer
+michael.brown@email.com | (555) 345-6789 | linkedin.com/in/michaelbrown
+
+PROFESSIONAL SUMMARY
+Experienced DevOps Engineer with 5+ years in implementing and maintaining CI/CD pipelines, cloud infrastructure, and automated deployment solutions. Skilled in AWS, Docker, and Kubernetes with a strong background in both development and operations. Passionate about improving development workflows and system reliability.
+
+TECHNICAL SKILLS
+• Cloud Platforms: AWS, Azure, Google Cloud Platform
+• Containerization: Docker, Kubernetes, Docker Compose
+• CI/CD: Jenkins, GitHub Actions, GitLab CI, CircleCI
+• Infrastructure as Code: Terraform, CloudFormation, Ansible
+• Monitoring: Prometheus, Grafana, ELK Stack, Datadog
+• Scripting: Python, Bash, PowerShell
+• Version Control: Git, GitHub, GitLab, Bitbucket
+
+PROFESSIONAL EXPERIENCE
+
+Senior DevOps Engineer
+Cloud Solutions Ltd. | January 2022 - Present
+• Design and maintain AWS infrastructure for microservices architecture
+• Implement and manage Kubernetes clusters for container orchestration
+• Develop CI/CD pipelines that reduced deployment time by 70%
+• Automate infrastructure provisioning using Terraform and AWS CloudFormation
+• Implement monitoring and alerting systems using Prometheus and Grafana
+• Collaborate with development teams to improve deployment workflows
+
+DevOps Engineer
+Tech Systems Inc. | March 2019 - December 2021
+• Managed CI/CD pipelines using Jenkins and GitHub Actions
+• Implemented Docker containerization for application services
+• Automated server configuration and deployment using Ansible
+• Developed scripts for backup and disaster recovery procedures
+• Collaborated with security team to implement security best practices
+• Provided on-call support for production issues
+
+System Administrator
+Network Solutions | June 2017 - February 2019
+• Managed Linux and Windows servers in a hybrid cloud environment
+• Implemented automated server provisioning and configuration
+• Monitored system performance and resolved infrastructure issues
+• Created documentation for system administration procedures
+• Assisted in migration from on-premises to cloud infrastructure
+
+EDUCATION
+Bachelor of Science in Information Technology
+State Technical University | Graduated May 2017
+• Concentration in Network Administration
+• GPA: 3.5/4.0
+
+PROJECTS
+
+Kubernetes Cluster Management
+• Designed and implemented a multi-environment Kubernetes cluster
+• Created Helm charts for standardized application deployment
+• Implemented auto-scaling and self-healing mechanisms
+• Documented best practices for container deployment
+
+Automated Infrastructure Deployment
+• Developed Terraform modules for standardized AWS infrastructure
+• Implemented infrastructure as code practices for all environments
+• Created self-service deployment tools for development teams
+• Reduced infrastructure provisioning time from days to minutes
+
+CERTIFICATIONS
+• AWS Certified DevOps Engineer – Professional
+• Certified Kubernetes Administrator (CKA)
+• HashiCorp Certified: Terraform Associate
+• Linux Professional Institute Certification (LPIC-1)

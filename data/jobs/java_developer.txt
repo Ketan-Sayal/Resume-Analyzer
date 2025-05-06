@@ -1,0 +1,17 @@
+Senior Java Developer Position
+Required Skills:
+- Strong Java programming (5+ years experience)
+- Spring Boot and Spring Framework
+- SQL database design and optimization
+- OOP design patterns
+- REST API development
+- Microservices architecture
+
+Responsibilities:
+- Develop and maintain Java-based applications
+- Work with development teams and product managers
+- Design client-side and server-side architecture
+- Write clean, testable code with unit tests
+- Build reusable components and libraries
+
+Company offers competitive salary with 3+ years of experience required.

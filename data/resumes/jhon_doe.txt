@@ -1,0 +1,58 @@
+JOHN DOE
+Software Developer
+john.doe@email.com | (555) 123-4567 | linkedin.com/in/johndoe | github.com/johndoe
+
+SUMMARY
+Dedicated Software Developer with 4 years of experience in Java and Python development. Skilled in OOP principles and building scalable applications. Strong problem-solving abilities and excellent team collaboration skills.
+
+SKILLS
+• Programming Languages: Java, Python, SQL
+• Frameworks & Libraries: Spring Boot, React.js, Hibernate
+• Tools & Technologies: Git, Docker, AWS, Jenkins
+• Database: MySQL, PostgreSQL, MongoDB
+• Methodologies: Agile/Scrum, TDD, CI/CD
+
+WORK EXPERIENCE
+
+Senior Software Engineer
+ABC Technology | June 2022 - Present
+• Developed and maintained Java-based microservices for the company's e-commerce platform
+• Improved application performance by 35% through code optimization and database query tuning
+• Implemented RESTful APIs using Spring framework for internal and external clients
+• Collaborated with cross-functional teams to design and deliver new features on schedule
+
+Software Developer
+XYZ Solutions | August 2019 - May 2022
+• Built and maintained Python applications for data processing and analytics
+• Created responsive web interfaces using React.js and integrated with backend APIs
+• Participated in code reviews and mentored junior developers
+• Worked closely with QA team to resolve bugs and improve product quality
+
+Intern Developer
+Dev Startup Inc. | May 2018 - July 2019
+• Assisted in the development of a customer relationship management system
+• Fixed bugs and implemented minor features under supervision
+• Gained experience in database design and SQL query optimization
+• Participated in daily stand-ups and sprint planning meetings
+
+EDUCATION
+Bachelor of Science in Computer Science
+University of Technology | Graduated May 2018
+• GPA: 3.8/4.0
+• Relevant Coursework: Data Structures and Algorithms, Database Systems, Web Development
+
+PROJECTS
+Inventory Management System
+• Developed a Java-based inventory management system with Spring Boot backend
+• Implemented OOP design patterns to ensure code maintainability and scalability
+• Created a responsive frontend using React.js with Redux for state management
+
+Weather Forecast Application
+• Built a Python application that fetches and displays weather data from third-party APIs
+• Used Django framework for backend development and Bootstrap for frontend
+• Implemented caching mechanism to improve performance
+
+CERTIFICATIONS
+• Oracle Certified Professional, Java SE 11 Developer
+• AWS Certified Developer – Associate
+• Scrum Master Certified (SMC)

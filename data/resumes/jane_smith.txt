@@ -1,0 +1,60 @@
+JANE SMITH
+Full Stack Developer
+jane.smith@email.com | (555) 987-6543 | linkedin.com/in/janesmith | github.com/janesmith
+
+PROFESSIONAL SUMMARY
+Results-driven Full Stack Developer with 3 years of experience designing and implementing web applications. Strong knowledge of Python, JavaScript, and SQL with a passion for clean, efficient code. Seeking to leverage technical skills and creativity in a challenging role.
+
+TECHNICAL SKILLS
+• Frontend: HTML5, CSS3, JavaScript, React, Vue.js, Bootstrap
+• Backend: Python, Java, Node.js, Express
+• Databases: MySQL, MongoDB, PostgreSQL
+• Tools: Git, Docker, Webpack, Jira, Jenkins
+• Methodologies: Agile, Scrum, Test-Driven Development
+
+PROFESSIONAL EXPERIENCE
+
+Full Stack Developer
+Tech Solutions Inc. | June 2021 - Present
+• Developed and maintained web applications using Python Django and React
+• Implemented RESTful APIs and integrated with third-party services
+• Optimized database queries resulting in 40% faster load times
+• Collaborated with UX/UI designers to implement responsive and accessible interfaces
+• Participated in Agile development process with bi-weekly sprints
+
+Junior Developer
+Digital Innovations | January 2020 - May 2021
+• Assisted in the development of e-commerce platforms using Java and Spring Boot
+• Built and maintained customer-facing web applications
+• Collaborated with team members on code reviews and technical documentation
+• Fixed bugs and improved existing features
+
+Web Development Intern
+Creative Web Solutions | May 2019 - December 2019
+• Helped develop and maintain company websites and client projects
+• Gained hands-on experience with HTML, CSS, and JavaScript
+• Assisted senior developers with testing and debugging
+• Learned version control with Git and project management with Jira
+
+EDUCATION
+Bachelor of Science in Software Engineering
+State University | Graduated December 2019
+• GPA: 3.7/4.0
+• Relevant Coursework: Web Development, Database Systems, Software Engineering, Data Structures and Algorithms
+
+PROJECTS
+
+E-commerce Platform
+• Developed a full-stack e-commerce application using React and Node.js
+• Implemented user authentication, product catalog, and shopping cart functionality
+• Used MongoDB for database and deployed on AWS
+
+Task Management Application
+• Created a task management web app with Python Flask backend
+• Designed RESTful API endpoints for task creation, updates, and deletion
+• Implemented user authentication and role-based access control
+
+CERTIFICATIONS
+• AWS Certified Developer – Associate
+• MongoDB Certified Developer
+• Certified Scrum Developer

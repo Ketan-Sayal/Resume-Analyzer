@@ -1,0 +1,64 @@
+EMILY CHEN
+Frontend Developer
+emily.chen@email.com | (555) 876-5432 | linkedin.com/in/emilychen | github.com/emilychen
+
+PROFESSIONAL SUMMARY
+Creative Frontend Developer with 2+ years of experience specializing in React.js and modern JavaScript frameworks. Passionate about creating intuitive, responsive user interfaces and optimizing web performance. Seeking a challenging position to leverage my technical skills and eye for design.
+
+TECHNICAL SKILLS
+• Languages: JavaScript (ES6+), HTML5, CSS3, TypeScript
+• Frontend: React.js, Redux, Next.js, Vue.js
+• Styling: SASS/SCSS, Styled Components, Tailwind CSS, Bootstrap
+• Tools: Webpack, Babel, npm, Yarn, Jest, Git
+• Design: Figma, Adobe XD, Responsive Design
+• Performance: Web Vitals, Lighthouse, Performance Optimization
+
+PROFESSIONAL EXPERIENCE
+
+Frontend Developer
+Digital Experience Agency | August 2023 - Present
+• Develop responsive web applications using React.js and Next.js
+• Implement state management solutions using Redux and Context API
+• Collaborate with UX/UI designers to translate wireframes into functional interfaces
+• Optimize web performance and accessibility across multiple browsers and devices
+• Participate in code reviews and contribute to technical documentation
+
+Junior Web Developer
+WebSolutions Inc. | June 2021 - July 2023
+• Built interactive user interfaces using JavaScript and React.js
+• Implemented responsive designs using CSS frameworks like Bootstrap and Tailwind
+• Collaborated with backend developers to integrate RESTful APIs
+• Participated in Agile development process, including daily stand-ups and sprint planning
+• Fixed bugs and improved existing features for better user experience
+
+Design Intern
+Creative Agency | January 2021 - May 2021
+• Assisted in creating wireframes and mockups for web applications
+• Learned fundamentals of UI/UX design principles
+• Gained experience with design tools like Figma and Adobe XD
+• Collaborated with developers to understand technical constraints
+
+EDUCATION
+Bachelor of Science in Computer Science
+Pacific University | Graduated December 2020
+• Minor in Graphic Design
+• GPA: 3.8/4.0
+• Relevant Coursework: Web Development, User Interface Design, Human-Computer Interaction
+
+PROJECTS
+
+E-commerce Frontend
+• Developed a responsive e-commerce frontend using React.js and Redux
+• Implemented cart functionality, product filtering, and user authentication
+• Used Styled Components for consistent UI design
+• Optimized for performance and accessibility
+
+Interactive Dashboard
+• Created a data visualization dashboard using React.js and D3.js
+• Implemented real-time data updates using WebSockets
+• Designed responsive layout that works across desktop and mobile devices
+• Added dark mode toggle and user preference saving
+
+CERTIFICATIONS
+• Meta Frontend Developer Professional Certificate
+• Google UX Design Professional Certificate
