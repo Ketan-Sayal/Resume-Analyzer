@@ -19,19 +19,16 @@ public class UserService {
     private Map<String, User> userCache;
     
     public UserService() {
-        // Create users directory if it doesn't exist
+        
         File directory = new File(USERS_DIRECTORY);
         if (!directory.exists()) {
             directory.mkdirs();
         }
         
-        // Load users into cache
         loadUsers();
     }
     
-    /**
-     * Loads all users from the users directory
-     */
+    
     private void loadUsers() {
         userCache = new HashMap<>();
         File usersDir = new File(USERS_DIRECTORY);
@@ -54,44 +51,36 @@ public class UserService {
         }
     }
     
-    /**
-     * Save a user to file
-     */
+ 
     private void saveUser(User user) {
         String filePath = USERS_DIRECTORY + "/" + user.getUsername() + ".user";
         try {
             FileUtils.serializeObject(user, filePath);
-            // Update cache
+            
             userCache.put(user.getUsername(), user);
         } catch (IOException e) {
             System.err.println("Error saving user: " + e.getMessage());
         }
     }
     
-    /**
-     * Register a new user
-     * @return true if registration successful, false if username already exists
-     */
+    
     public boolean registerUser(String username, String password) {
-        // Check if username already exists
+        
         if (userCache.containsKey(username)) {
             return false;
         }
         
-        // Hash the password
+        
         String hashedPassword = hashPassword(password);
         
-        // Create and save new user
+        
         User newUser = new User(username, hashedPassword);
         saveUser(newUser);
         
         return true;
     }
     
-    /**
-     * Authenticate a user
-     * @return User object if authentication successful, null otherwise
-     */
+    
     public User authenticateUser(String username, String password) {
         User user = userCache.get(username);
         
@@ -102,16 +91,14 @@ public class UserService {
         return null;
     }
     
-    /**
-     * Hash a password using SHA-256
-     */
+    
     private String hashPassword(String password) {
         try {
             MessageDigest digest = MessageDigest.getInstance("SHA-256");
             byte[] hash = digest.digest(password.getBytes());
             return Base64.getEncoder().encodeToString(hash);
         } catch (NoSuchAlgorithmException e) {
-            // Fallback to plain password if hashing fails
+            
             System.err.println("Password hashing failed: " + e.getMessage());
             return password;
         }

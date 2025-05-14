@@ -128,7 +128,7 @@ public class Application {
     
     
     private static void analyzeResumesForJob() {
-        // List available job descriptions
+        
         List<String> jobs = resumeService.listJobs();
         
         if (jobs.isEmpty()) {
@@ -136,13 +136,13 @@ public class Application {
             return;
         }
         
-        // Display available jobs
+        // available jobs
         System.out.println("\n==== Available Job Descriptions ====");
         for (int i = 0; i < jobs.size(); i++) {
             System.out.println((i + 1) + ". " + returnName(jobs.get(i)));
         }
         
-        // Get user selection
+        
         System.out.print("\nSelect a job number to analyze resumes against (1-" + jobs.size() + "): ");
         int jobIndex;
         try {
@@ -156,7 +156,7 @@ public class Application {
             return;
         }
         
-        // Analyze resumes against selected job
+        
         String selectedJob = jobs.get(jobIndex);
         System.out.println("\nAnalyzing resumes for job: " + selectedJob);
         Map<String, Integer> results = resumeService.analyzeResumesForJob(selectedJob);
@@ -166,7 +166,7 @@ public class Application {
             return;
         }
         
-        // Display results
+        
         System.out.println("\n==== Resume Rankings for " + selectedJob + " ====");
         for (Map.Entry<String, Integer> entry : results.entrySet()) {
             System.out.println("Resume: " + entry.getKey() + " | Job Match Score: " + entry.getValue());

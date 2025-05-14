@@ -34,19 +34,16 @@ public class ResumeService {
         }
     }
     
-    /**
-     * Analyze all resumes in the resumes directory
-     * @return Map of resume file names to their total scores, sorted by score
-     */
+    
     public Map<String, Integer> analyzeResumes() {
         List<Resume> resumes = loadResumes();
         
-        // Score each resume
+        
         for (Resume resume : resumes) {
             scoreResume(resume);
         }
         
-        // Sort resumes by total score and create result map
+        
         return resumes.stream()
                 .sorted(Comparator.comparing(Resume::getTotalScore).reversed())
                 .collect(Collectors.toMap(
@@ -57,11 +54,7 @@ public class ResumeService {
                 ));
     }
     
-    /**
-     * Analyze resumes based on a specific job description
-     * @param jobFileName The name of the job file to analyze against
-     * @return Map of resume file names to their job match scores, sorted by score
-     */
+    
     public Map<String, Integer> analyzeResumesForJob(String jobFileName) {
         List<Resume> resumes = loadResumes();
         Job job = loadJob(jobFileName);
@@ -71,15 +64,15 @@ public class ResumeService {
             return new LinkedHashMap<>();
         }
         
-        // Extract keywords from job description
+        
         Set<String> jobKeywords = extractKeywords(job.getDescription());
         
-        // Score each resume against the job
+        
         for (Resume resume : resumes) {
             scoreResumeForJob(resume, jobKeywords);
         }
         
-        // Sort resumes by job match score and create result map
+        
         return resumes.stream()
                 .sorted(Comparator.comparing(Resume::getJobMatchScore).reversed())
                 .collect(Collectors.toMap(
@@ -90,34 +83,29 @@ public class ResumeService {
                 ));
     }
     
-    /**
-     * Extract important keywords from a text
-     */
+    
     private Set<String> extractKeywords(String text) {
         Set<String> keywords = new HashSet<>();
         
-        // Add all skill keywords found in the text
         for (String skill : skillKeywords) {
             if (text.toLowerCase().contains(skill.toLowerCase())) {
                 keywords.add(skill.toLowerCase());
             }
         }
         
-        // Add all experience keywords found in the text
+        
         for (String exp : experienceKeywords) {
             if (text.toLowerCase().contains(exp.toLowerCase())) {
                 keywords.add(exp.toLowerCase());
             }
         }
         
-        // Add additional processing for extracting more keywords if needed
+       
         
         return keywords;
     }
     
-    /**
-     * Load all resumes from the resumes directory
-     */
+   
     private List<Resume> loadResumes() {
         List<Resume> resumes = new ArrayList<>();
         File resumesDir = new File(RESUMES_DIRECTORY);
@@ -140,9 +128,7 @@ public class ResumeService {
         return resumes;
     }
     
-    /**
-     * Load a specific job from the jobs directory
-     */
+    
     private Job loadJob(String jobFileName) {
         File jobFile = new File(JOBS_DIRECTORY + File.separator + jobFileName);
         
@@ -158,9 +144,7 @@ public class ResumeService {
         return null;
     }
     
-    /**
-     * List all available job files
-     */
+    
     public List<String> listJobs() {
         List<String> jobFiles = new ArrayList<>();
         File jobsDir = new File(JOBS_DIRECTORY);
@@ -178,9 +162,6 @@ public class ResumeService {
         return jobFiles;
     }
     
-    /**
-     * Score a resume based on skill and experience keywords
-     */
     private void scoreResume(Resume resume) {
         String content = resume.getContent();
         
@@ -191,9 +172,7 @@ public class ResumeService {
         resume.setExperienceScore(experienceScore);
     }
     
-    /**
-     * Score a resume specifically for a job match
-     */
+    
     private void scoreResumeForJob(Resume resume, Set<String> jobKeywords) {
         String content = resume.getContent();
         int jobMatchScore = 0;
@@ -207,9 +186,7 @@ public class ResumeService {
         resume.setJobMatchScore(jobMatchScore);
     }
     
-    /**
-     * Calculate score based on keywords
-     */
+    
     private int calculateScore(String content, List<String> keywords) {
         int score = 0;
         String[] words = content.split("\\W+");
@@ -224,9 +201,7 @@ public class ResumeService {
         return score;
     }
     
-    /**
-     * Add custom keywords to the existing lists
-     */
+    
     public void addSkillKeyword(String keyword) {
         if (!skillKeywords.contains(keyword.toLowerCase())) {
             skillKeywords.add(keyword.toLowerCase());
