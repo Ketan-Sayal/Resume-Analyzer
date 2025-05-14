@@ -8,8 +8,8 @@ import src.main.models.Resume;
 import src.main.utils.FileUtils;
 
 public class ResumeService {
-    private static final String RESUMES_DIRECTORY = "data/resumes";
-    private static final String JOBS_DIRECTORY = "data/jobs";
+    private static final String RESUMES_DIRECTORY = "../data/resumes";
+    private static final String JOBS_DIRECTORY = "../data/jobs";
     
     private static final List<String> skillKeywords = new ArrayList<>(Arrays.asList(
          "java", "python", "sql", "oop", "dsa", "spring", "react"
@@ -20,7 +20,7 @@ public class ResumeService {
     ));
     
     public ResumeService() {
-        // Create resumes directory if it doesn't exist
+        
         File resumeDirectory = new File(RESUMES_DIRECTORY);
         File jobDirectory = new File(JOBS_DIRECTORY);
         
