@@ -1,12 +1,11 @@
 package src.main;
 
-import src.main.models.User;
-import src.main.services.ResumeService;
-import src.main.services.UserService;
-
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
+import src.main.models.User;
+import src.main.services.ResumeService;
+import src.main.services.UserService;
 
 public class Application {
     private static final Scanner scanner = new Scanner(System.in);
